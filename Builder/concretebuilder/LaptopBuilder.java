@@ -13,7 +13,6 @@ public class LaptopBuilder implements ComputerBuilder {
     @Override
     public void setType(Type type) {
         this.type=type;
-
     }
     @Override
     public void setType(String s){
@@ -22,32 +21,23 @@ public class LaptopBuilder implements ComputerBuilder {
     @Override
     public void setCPU(CPU cpu) {
         this.cpu=cpu;
-
     }
-
     @Override
     public void setCPUCooling(CPUCooling cpuc) {
         this.cpuc=cpuc;
-
     }
-
     @Override
     public void setPowerSupply(PowerSupply pws) {
 
     }
-
     @Override
     public void setRAM(RAM ram) {
         this.ram=ram;
-
     }
-
     @Override
     public void setScreen(Screen screen) {
         this.screen=screen;
-
     }
-
     @Override
     public void setStorage(Storage str) {
         this.str=str;
@@ -55,5 +45,4 @@ public class LaptopBuilder implements ComputerBuilder {
     public Laptop getResult(){
         return new Laptop(type, optionType,cpu, cpuc, ram, screen, str);
     }
-
 }

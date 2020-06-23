@@ -9,5 +9,4 @@ public class SingleClient {
         MusicPlayer session2= MusicPlayer.getInstance("Bà tôi");
         session2.showSong(); 
     }
-
 }

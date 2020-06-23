@@ -13,7 +13,7 @@ public class Client {
         PC gamingPC=pcBuilder.getResult();
         gamingPC.turnON();
         gamingPC.showInfo();
-        //Don't use director
+        //Without use director
         System.out.println("===============================\nBuild a laptop do not use Director: ");
         LaptopBuilder lapBuilder= new LaptopBuilder();
         lapBuilder.setType("Cheap Laptop");

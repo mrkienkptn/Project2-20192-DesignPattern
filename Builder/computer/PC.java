@@ -22,30 +22,7 @@ public class PC {
         this.type=type;
         this.optionType=optionType;
     }
-    public Type getType(){
-        return this.type;
-    }
-    public CPU getCpu(){
-        return this.cpu;
-    }
-    public CPUCooling getCpuCooling(){
-        return cpuc;
-    }
-    public PowerSupply getPowerSupply(){
-        return pws;
-    }
-    public RAM getRam(){
-        return ram;
-    }
-    public Screen getScreen(){
-        return screen;
-    }
-    public Storage getStorage(){
-        return str;
-    }
-    public String getOptionType(){
-        return optionType;
-    }
+
     public void showInfo(){
         if (type!=null)
             System.out.println("Type: "+ type);
